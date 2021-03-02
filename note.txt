@@ -1,0 +1,2 @@
+startup script :
+consul agent -server -ui -bootstrap-expect 1 -data-dir /tmp/consul -node agent-1 -client 0.0.0.0 -bind 192.168.0.104  -datacenter dc1
